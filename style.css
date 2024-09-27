@@ -24,8 +24,9 @@ body{
 header{
     height: 200px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+ 
 }
 .logo{
     height: 80px;
@@ -39,9 +40,11 @@ header{
 
 .menu ul{
     display: flex;
-    gap: 32px;
+    gap: 95px;
     font-size: 32px;
-    color: aliceblue;
+    color: rgb(255, 255, 255);
+    font-family: "Roboto Flex", sans-serif;
+    
 }
 main{
     flex-grow: 1;
@@ -65,19 +68,19 @@ main{
 .conteudo button{
     height: 80px;
     width: 300px;
-    background-color: #276a0d;
-    color:  white;
-    font-size: 32px;
+    background-color: #fbfbfb;
+    color:  #14463A;;
+    font-size: 38px;
 }
 .conteudo .social{
     display: flex;
     justify-content: space-between;
     width:  80%;
 }
-.conteudo .social div{
+.conteudosocial div{
     width: 80px;
     height: 80px;
-    border-radius: 50%;
+    border-radius: 60%;
     
 }
 
@@ -91,27 +94,27 @@ main{
     
 }
 
-.x{
+.cafegelado{
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url(./img/novo-design-de-icone-x-do-logotipo-do-twitter-em-2023_1017-45418.avif)
+    background-image: url(./img/png.webp)
 }
 
-.insta{
+.frappuccinocaramelo{
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url(./img/insta.jpeg)
+    background-image: url(./img/um-copo-de-cafe-gelado-com-molho-de-caramelo-e-graos-de-cafe_745528-51941.avif)
 }
 
-.iced tea{
+.icedtea{
     background-position: left;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url(./)
+    background-image: url(./img/Iced\ Black\ Tea.jpeg.webp)
 
 }
 footer{
-    height: 100px;
+    height: 200px;
     display: flex;
     justify-content: center;
     align-items: center;
