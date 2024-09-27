@@ -1,0 +1,121 @@
+/* RESET */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+ul, ol, li{
+    list-style: none;
+}
+
+
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding-inline: 80px;
+    background-color: #14463A;
+}
+
+header{
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    height: 80px;
+    width: 80px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(./Monster-Energy-logo-01.png);
+}
+
+
+.menu ul{
+    display: flex;
+    gap: 32px;
+    font-size: 32px;
+    color: aliceblue;
+}
+main{
+    flex-grow: 1;
+    display: flex;
+}
+.conteudo{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    color: aliceblue;
+}
+.conteudo h1{
+    font-size: 96px;
+    color: aliceblue;
+}
+.conteudo p{
+    font-size: 40px;
+    width:  80%;
+}
+.conteudo button{
+    height: 80px;
+    width: 300px;
+    background-color: #276a0d;
+    color:  white;
+    font-size: 32px;
+}
+.conteudo .social{
+    display: flex;
+    justify-content: space-between;
+    width:  80%;
+}
+.conteudo .social div{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    
+}
+
+.destaque{
+    height: 80%;
+    width: 50%;
+    background-position: right ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(./img/pngwing.com.png)
+    
+}
+
+.x{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(./img/novo-design-de-icone-x-do-logotipo-do-twitter-em-2023_1017-45418.avif)
+}
+
+.insta{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(./img/insta.jpeg)
+}
+
+.iced tea{
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(./)
+
+}
+footer{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+}
+
+/* FIM DO RESET */
