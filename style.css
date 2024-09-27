@@ -70,8 +70,12 @@ main{
     width: 300px;
     background-color: #fbfbfb;
     color:  #14463A;;
-    font-size: 38px;
+    font-size: 60px;
+    border-radius: 200px;
+    font-family: "Jomhuria", serif;
 }
+
+
 .conteudo .social{
     display: flex;
     justify-content: space-between;
